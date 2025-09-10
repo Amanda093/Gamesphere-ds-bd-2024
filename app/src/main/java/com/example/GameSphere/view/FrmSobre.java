@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package view;
+package com.example.GameSphere.view;
 
 import java.awt.Dialog;
 import javax.swing.ImageIcon;
@@ -75,7 +75,7 @@ public class FrmSobre extends javax.swing.JDialog {
         lblAmanda.setName("Amanda"); // NOI18N
 
         lblLogo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/gamesphere-logo.png"))); // NOI18N
+        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gamesphere-logo.png"))); // NOI18N
         lblLogo.setName("lblLogo"); // NOI18N
 
         btnVoltar.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N

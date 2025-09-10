@@ -226,7 +226,7 @@
         <Component class="javax.swing.JButton" name="jtbCliente">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/cliente.png"/>
+              <Image iconType="3" name="/cliente.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Cliente"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -247,7 +247,7 @@
         <Component class="javax.swing.JButton" name="jtbProduto">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/produto.png"/>
+              <Image iconType="3" name="/produto.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Produto"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -268,7 +268,7 @@
         <Component class="javax.swing.JButton" name="jtbReserva">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/reserva.png"/>
+              <Image iconType="3" name="/reserva.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Reserva"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -289,7 +289,7 @@
         <Component class="javax.swing.JButton" name="jtbSobre">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/sobre.png"/>
+              <Image iconType="3" name="/sobre.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Sobre"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -310,7 +310,7 @@
         <Component class="javax.swing.JButton" name="jtbSair">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/sair.png"/>
+              <Image iconType="3" name="/sair.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Sair"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -334,7 +334,7 @@
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/gamesphere.png"/>
+          <Image iconType="3" name="/gamesphere.png"/>
         </Property>
         <Property name="name" type="java.lang.String" value="lblLogo" noResource="true"/>
       </Properties>

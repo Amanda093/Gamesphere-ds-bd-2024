@@ -4,7 +4,7 @@
  *  ==================================================
 */
 
-package model;
+package com.example.GameSphere.model;
 
 import javax.swing.JOptionPane;
 import java.sql.*;

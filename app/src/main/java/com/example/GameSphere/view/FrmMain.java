@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package view;
+package com.example.GameSphere.view;
 
 import java.text.ParseException;
 import java.util.logging.Level;
@@ -20,7 +20,7 @@ public class FrmMain extends javax.swing.JFrame {
      * Creates new form FrmMain
      */
     public FrmMain() {
-        ImageIcon icone = new ImageIcon("src/img/gamesphere-ico.png");
+        ImageIcon icone = new ImageIcon("/main/java/com/example/GameSphere/img/gamesphere-ico.png");
         setIconImage(icone.getImage());
         initComponents();
          try {
@@ -92,7 +92,7 @@ public class FrmMain extends javax.swing.JFrame {
         jtbGameSphere.setBorderPainted(false);
         jtbGameSphere.setName("GameSphere Toolbar"); // NOI18N
 
-        jtbCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cliente.png"))); // NOI18N
+        jtbCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cliente.png"))); // NOI18N
         jtbCliente.setToolTipText("Cliente");
         jtbCliente.setFocusable(false);
         jtbCliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -107,7 +107,7 @@ public class FrmMain extends javax.swing.JFrame {
         });
         jtbGameSphere.add(jtbCliente);
 
-        jtbProduto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/produto.png"))); // NOI18N
+        jtbProduto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/produto.png"))); // NOI18N
         jtbProduto.setToolTipText("Produto");
         jtbProduto.setFocusable(false);
         jtbProduto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -122,7 +122,7 @@ public class FrmMain extends javax.swing.JFrame {
         });
         jtbGameSphere.add(jtbProduto);
 
-        jtbReserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/reserva.png"))); // NOI18N
+        jtbReserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/reserva.png"))); // NOI18N
         jtbReserva.setToolTipText("Reserva");
         jtbReserva.setFocusable(false);
         jtbReserva.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -137,7 +137,7 @@ public class FrmMain extends javax.swing.JFrame {
         });
         jtbGameSphere.add(jtbReserva);
 
-        jtbSobre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/sobre.png"))); // NOI18N
+        jtbSobre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sobre.png"))); // NOI18N
         jtbSobre.setToolTipText("Sobre");
         jtbSobre.setFocusable(false);
         jtbSobre.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -152,7 +152,7 @@ public class FrmMain extends javax.swing.JFrame {
         });
         jtbGameSphere.add(jtbSobre);
 
-        jtbSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/sair.png"))); // NOI18N
+        jtbSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sair.png"))); // NOI18N
         jtbSair.setToolTipText("Sair");
         jtbSair.setFocusable(false);
         jtbSair.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -168,7 +168,7 @@ public class FrmMain extends javax.swing.JFrame {
         jtbGameSphere.add(jtbSair);
 
         lblLogo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/gamesphere.png"))); // NOI18N
+        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gamesphere.png"))); // NOI18N
         lblLogo.setName("lblLogo"); // NOI18N
 
         menMenu.setName("mnbTabela"); // NOI18N

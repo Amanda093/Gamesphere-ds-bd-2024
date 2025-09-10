@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package view;
+package com.example.GameSphere.view;
 
 import java.awt.Color;
 import java.awt.Dialog;
@@ -16,7 +16,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.text.MaskFormatter;
-import model.Conexao;
+import com.example.GameSphere.model.Conexao;
 
 /**
  *
